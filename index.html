@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/12514ffb2f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+          <div class="nav-text">
+            <h3 class="nav-h3">Dastan</h3>
+          </div>
+          <div class="nav-menu">
+            <ul class="nav-ul">
+              <a href="#about"> <li class="nav-list">About</li></a>
+              <a href="#projects"> <li class="nav-list">Projects</li></a>
+              <a href="#contact"> <li class="nav-list">Contact</li></a>
+            </ul>
+          </div>
+        </nav>
+        <main class="main">
+          <h1 class="main-text wow animate__animated animate__bounce ">
+            Hi, I’m Smagulov Dastan, <br />
+            I build things for the web.
+          </h1>
+          <p class="main-p">
+            I’m passionate Front-End developer and this is my portfolio.
+          </p>
+          <form
+            method="get"
+            action="https://github.com/DastanSmagulov"
+            target="blank"
+          >
+            <button type="submit" class="main-button">
+              Check out my
+              <img class="github" width="30px" src="/github.svg" alt="" />
+            </button>
+          </form>
+        </main>
+      </header>
+      <section id="about" class="about">
+        <div class="about-info" data-aos="fade-left" data-aos-delay="300">
+          <h2 class="wow animate__animated animate__bounce about-h2" data-wow-delay="1s">
+            About me
+          </h2>
+          <p class="about-p">
+            I am a solution oriented Frontend Developer, lifelong learner, and
+            creative person. I enjoy development because of the satisfaction I
+            get by overcoming challenges. I am motivated by the opportunity that
+            software provides to positively impact the life of an individual,
+            and the world as a whole.
+          </p>
+        </div>
+        <div class="about-image" data-aos="fade-right" data-aos-delay="300">
+          <img
+            src="./images/avatar.jpg"
+            alt="portfolio picture"
+            class="about-img"
+          />
+        </div>
+      </section>
+
+      <!-- animations transition -->
+
+      <section id="projects" class="projects">
+        <h2
+          class="wow animate__animated animate__bounce projects-h2" data-wow-delay="1s"
+        >
+          Projects I've Worked On
+        </h2>
+        <div class="projects-container">
+          <div class="project">
+            <div class="project-left" data-aos="fade-left" data-aos-delay="300">
+              <a href="https://dastan-bankist-app.vercel.app/"><img src="./images/Bankist.jpg" alt="" /></a>
+            </div>
+            <div class="project-right" data-aos="fade-right" data-aos-delay="300">
+              <h3 class="project-name">Bankist App</h3>
+              <p class="project-p">
+                Bankist is a fictional online bank. It is a project introduced by Jonas Schmedtmann in order to practice DOM manipulation and user interaction. Bankist has an option to log in to the account and use different functionalities, almost like in an actual bank!(try user:ds, pin:1111, and user:me, pin:2222)
+              </p>
+              <ul class="project-ul">
+                <li style="margin-bottom: 24px" class="about-list">
+                  Dom Manipulation
+                </li>
+                <li class="about-list">Javascript Array methods</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project-left" data-aos="fade-left" data-aos-delay="300">
+              <h3 class="project-name">Project-name</h3>
+              <p class="project-p">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptate, vel maiores, magnam aperiam cum reprehenderit
+                doloribus odit pariatur esse ipsa dolorem minus at. Unde nemo
+                architecto enim, repellendus vitae id.
+              </p>
+              <ul class="project-ul">
+                <li style="margin-bottom: 24px" class="about-list">
+                  Lorem Ipsum Description Text
+                </li>
+                <li class="about-list">Lorem Ipsum Description Text</li>
+              </ul>
+            </div>
+            <div class="project-right" data-aos="fade-right" data-aos-delay="300">
+              <img class="right-img" src="./images/project-1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project-left" data-aos="fade-right" data-aos-delay="300">
+              <img src="./images/project-1.png" alt="" />
+            </div>
+            <div class="project-right" data-aos="fade-" data-aos-delay="300">
+              <h3 class="project-name">Project-name</h3>
+              <p class="project-p">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptate, vel maiores, magnam aperiam cum reprehenderit
+                doloribus odit pariatur esse ipsa dolorem minus at. Unde nemo
+                architecto enim, repellendus vitae id.
+              </p>
+              <ul class="project-ul">
+                <li style="margin-bottom: 24px" class="about-list">
+                  Lorem Ipsum Description Text
+                </li>
+                <li class="about-list">Lorem Ipsum Description Text</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2 id="contact-scroll" class="wow animate__animated animate__bounce contact-h2" data-wow-delay="1s">
+          Say Hello
+        </h2>
+        <!-- telegram, and gmail icon -->
+        <p class="contact-p">I would like to cooperate :)</p>
+        <button
+          onclick="location.href='https://t.me/BarnieStinson'"
+          type="submit"
+          class="contact-button"
+        >
+          Get In Touch
+        </button>
+      </section>
+
+      <!-- main footer -->
+      <footer class="footer">
+        <div class="left-footer">
+          <p>Made with ❤️ by Smagulov Dastan</p>
+        </div>
+        <div class="right-footer">
+          <p>
+            <!-- icons of social media -->
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
